@@ -1,0 +1,19 @@
+{
+  "name": "hts",
+  "author": "Palash Mukhopadhyay <mpalash@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/mpalash/hugo-theme-starter.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sanitize-css": "^3.3.0",
+    "jquery": "^2.2.4",
+    "font-awesome": "^4.6.3",
+    "jquery-cycle": "^3.0.3"
+  }
+}

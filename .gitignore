@@ -1,0 +1,15 @@
+## OS Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
+
+# Node things
+/node_modules
+/bower_components
+/npm-debug.log
+.sass-cache
