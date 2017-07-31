@@ -1,0 +1,12 @@
+@import
+  'sanitize',
+  'variables',
+  'grid',
+  'icons',
+  'typography';
+
+body {
+  * {
+    box-sizing: border-box;
+  }
+}

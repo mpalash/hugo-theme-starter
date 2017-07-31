@@ -37,7 +37,7 @@ gulp.task('icons', function() {
          export: 'artboards',
          formats: 'svg'
       }))
-      .pipe(gulp.dest('scss/svg/'));
+      .pipe(gulp.dest('src/scss/svg/'));
 });
 
 gulp.task('scripts', function() {
@@ -63,7 +63,9 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch(['scss/*.scss','sketch/*.sketch','public/js/*.js'], function() {
+  gulp.watch(['src/scss/*.scss','sketch/*.sketch','public/js/*.js'], function() {
      runSequence('sass')
   });
 });
+
+gulp.task('default', ['watch']);
